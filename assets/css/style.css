@@ -1,0 +1,29 @@
+/* --- 1. Reseteo Básico y Global --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color1: #3de159;
+  --color2: #efa229;
+  --color3: #f24429;
+  --color4: #475cf3;
+  --titulos: 'Pacifico', cursive;
+  --texto: 'Poppins', sans-serif;
+}
+
+.navbar {
+  background-color: var(--color1);
+  height: 6rem;
+}
+main{
+    margin-top: 10rem;
+    text-align: center;
+}
+
+footer{
+    background-color: #104519;
+    margin-top: 5rem;
+}
