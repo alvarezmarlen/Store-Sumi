@@ -1,0 +1,6 @@
+{
+    "id_produc": 12,
+    "imagen_product": 12,
+    "titulo_product":"hermoso",
+    "varios": ["Hola", 1, "mundo"]
+}

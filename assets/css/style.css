@@ -3,27 +3,43 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: system-ui, sans-serif;
 }
 
 :root {
-  --color1: #3de159;
-  --color2: #efa229;
-  --color3: #f24429;
-  --color4: #475cf3;
-  --titulos: 'Pacifico', cursive;
-  --texto: 'Poppins', sans-serif;
+  --black:#000000;
+  --white:#ffffff;
+  --dark-purple: #3c122c;
+  --medium-purple: #762ba3;
+  --light-purple: #ae40f0;
+  --yellow: #ffc800;
+  --pink: #fc5185;
+  --light-pink: #ffeffe;
+  --green: #00b090;
+  --background-gray: #eee;
+  --color :#dc3545;
 }
 
-.navbar {
-  background-color: var(--color1);
-  height: 6rem;
+
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px 100px 100px;
+
 }
+header{
+  grid-column: 1/ span 3;
+  background: var(--pink);
+}
+
 main{
-    margin-top: 10rem;
-    text-align: center;
-}
+  grid-area: 2 / 1 / 4 /4;
+  background-color: var(--green);
+  text-align: center;
+  }
 
-footer{
-    background-color: #104519;
-    margin-top: 5rem;
-}
+  footer{
+    grid-column: 4 / 1 ;
+    background-color: var(--yellow);
+  }
