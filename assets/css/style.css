@@ -23,25 +23,35 @@
 
 
 body {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
 
 }
 header{
-  grid-column: 1/ span 3;
+
   background: var(--pink);
 }
 
 main{
-  grid-area: 2 / 1 / 4 /4;
-  height: i;
+
   background-color: var(--green);
   text-align: center;
   }
 
   footer{
-    grid-column: 1 / 4 ;
-    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
     background-color: var(--yellow);
+  }
+
+  .sobre-nosotros{
+    background-color: #b01a00;
+  }
+
+  .central{
+    background-color: #3c122c;
+  }
+
+  .informacion-legal{
+    background-color: #dc3545;
   }
