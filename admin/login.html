@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+:root {
+  --black:#000000;
+  --white:#ffffff;
+  --dark-purple: #3c122c;
+  --medium-purple: #762ba3;
+  --light-purple: #ae40f0;
+  --yellow: #ffc800;
+  --pink: #fc5185;
+  --light-pink: #ffeffe;
+  --green: #00b090;
+  --background-gray: #eee;
+  --color :#dc3545;
+}
+    body{
+        background-color: var(--light-pink);
+        text-align: center;
+    }
+
+    .container{
+        display: inline-block;
+        
+    }
+    
+</style>
+<body>
+    <main>
+        <form action="action_page.php" method="post">
+            <div class="imgcontainer">
+                <img src="/assets/img/logo-sumi.png" alt="Avatar" class="avatar">
+            </div>
+
+            <div class="container">
+                <label for="nombre"><b>Nombre de usuario</b></label>
+                <input type="text" placeholder="Ingrese el nombre de usuario" name="nombre" required>
+
+                <label for="password"><b>Password</b></label>
+                <input type="password" placeholder="Ingrese el Password" name="password" required>
+
+                <button type="submit">Login</button>
+                <label>
+                <input type="checkbox" checked="checked" name="recordar"> Recordarme
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <button type="button" class="cancelbtn">Cancelar</button>
+                <span class="password">Olvidó <a href="#">password?</a></span>
+            </div>
+        </form>
+
+    </main>
+    
+</body>
+</html>
