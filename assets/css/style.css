@@ -20,16 +20,97 @@
   --color :#dc3545;
 }
 
+/* CONTENEDOR PRINCIPAL */
+#header {
+    background: #fff;
+    border-bottom: solid 1px #e3e3e3;
+    box-shadow: 0px 2px 11px 0px rgba(61, 57, 57, 0.17);
+}
+
+/* BARRA ROSADA (SUPERIOR) */
+.header-nav {
+    display: flex;
+    background: #f8d9d6;
+    border-bottom: solid 1px #cfcfcf;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    font-size: 1.06667rem;
+}
+
+.header-nav ul {
+    display: flex;
+    list-style: none;
+    margin-left: 6rem;
+    padding: 0;
+}
+.header-nav ul li a{
+    color: #fff;
+    text-decoration: none;
+
+    .fa-brands{
+      font-size: 1.5rem;
+      display: inline-block;
+    }
+}
+.header-nav ul li .contact{
+    margin-left: -5rem;
+    }
+
+
+/* FRANJA BLANCA (LOGO Y CENTRO) */
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 20px;
+}
+
+.logo-header { 
+  margin-left: 3rem;
+  flex: 0 0 250px;
+
+  img{
+    width: 230px ;
+  }
+ }
+
+
+.header-center { flex: 1; text-align: center; padding: 0 15px; }
+.header-right  { flex: 0 0 200px; text-align: right; padding: 0 15px; }
+
+/* NAVEGACIÓN INFERIOR (LA QUE SOBRESALE) */
+.nav-inferior {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+
+.nav-inferior ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    background: #fff;
+    padding: 15px 40px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+    margin-top: -10px; /* Efecto pisado */
+}
+
+.nav-inferior ul li a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
 
 
 body {
+  display: grid;
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
 
-}
-header{
-
-  background: var(--pink);
 }
 
 main{
@@ -42,6 +123,7 @@ main{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     background-color: var(--yellow);
+    
   }
 
   .sobre-nosotros{
