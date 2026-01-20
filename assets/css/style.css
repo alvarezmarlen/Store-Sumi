@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: system-ui, sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 :root {
@@ -60,9 +60,9 @@
 /* FRANJA BLANCA (LOGO Y CENTRO) */
 .header-top {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 1rem 20px;
+    padding: 0.5rem 20px;
+    align-items: center;  /* Asegura que todo esté centrado mientras encoge */
 }
 
 .logo-header { 
@@ -75,15 +75,97 @@
  }
 
 
-.header-center { flex: 1; text-align: center; padding: 0 15px; }
-.header-right  { flex: 0 0 200px; text-align: right; padding: 0 15px; }
+.header-center { 
+  flex: 1; 
+  text-align: center; 
+  padding: 0 15px; 
+    text-align: center;
+    color: #777;
+    font-size: 13px;
+}
+.envio-info p img{
+     vertical-align: middle;
+}
+.buscar-nav{
+  width: 100%;  /* El contenedor padre ocupa todo el espacio central */
+  display: flex;
+  justify-content: center;
+}
+.buscar-form {
+    position: relative;
+    width: 80%;
+    max-width: 300px; /* <--- Esto evita que sea gigante a lo ancho */
+    display: flex;
+    align-items: center;
+}
+
+.form-control {
+    width: 100%;
+    /* Reducimos el primer número (0.5rem) para que sea menos alta */
+    padding: 0.5rem 2.5rem 0.5rem 1rem; 
+    font-size: 13px; /* Texto más pequeño dentro */
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 20px; /* Bordes redonditos finos */
+}
+
+.buscar-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 2.5rem; /* Reducimos un poco el ancho del botón */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 5;
+}
+.buscar-btn i {
+    color: #777;
+    font-size: 0.9rem; /* <--- Lupa más pequeña */
+}
+
+
+    
+.header-right {
+    flex: 0; 
+    display: flex;
+    justify-content: flex-end; /* Los lleva al final de la derecha */
+    align-items: center;       /* Los centra verticalmente */
+    gap: 40px;                 /* Espacio entre el bloque de cuenta y el de carrito */
+    margin-right: 5rem;
+}
+
+.header-right a {
+    display: flex;
+    flex-direction: column; /* <--- Pone el icono arriba y el texto abajo */
+    align-items: center;       /* Centra el icono con el texto */
+    text-decoration: none;     /* Quita el subrayado azul */
+}
+
+.header-right a img {
+    width: 3.5rem;               
+    height: auto;
+}
+
+.header-right a .title {
+    font-size: 15px;
+    font-weight: 500;
+    color: #777777;
+    white-space: nowrap;    /* <--- ¡ESTO EVITA QUE EL TEXTO SE ROMPA EN DOS LÍNEAS! */
+    
+}
+
 
 /* NAVEGACIÓN INFERIOR (LA QUE SOBRESALE) */
 .nav-inferior {
     display: flex;
     justify-content: center;
     background-color: #fff;
-    padding-bottom: 20px;
+    padding-bottom: 1rem;
 }
 
 .nav-inferior ul {
@@ -91,26 +173,29 @@
     gap: 30px;
     list-style: none;
     background: #fff;
-    padding: 15px 40px;
+    padding: 1rem 2.5rem;
     border-radius: 8px;
     box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
-    margin-top: -10px; /* Efecto pisado */
+    margin-top: -5px; /* Efecto pisado */
 }
 
 .nav-inferior ul li a {
     text-decoration: none;
     color: #333;
+    font-size: 20px;
+    font-weight: 600;
     display: flex;
     align-items: center;
     gap: 5px;
 }
-
+.nav-inferior ul li a span:hover {
+color:#eb958d;
+}
 
 body {
   display: grid;
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
-
 }
 
 main{
@@ -119,21 +204,48 @@ main{
   text-align: center;
   }
 
-  footer{
+
+    footer{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    background-color: var(--yellow);
-    
   }
 
-  .sobre-nosotros{
+  .sobre-nosotros,  .informacion-legal{
+    padding-top: 2rem;
+    text-align: center;
+    color: #777777;    
     background-color: #b01a00;
+    padding-bottom: 1rem;
+
+    a{
+      text-decoration: none;
+      color: #777777;
+      display: flex;
+      justify-content: center;
+    }
   }
+.titulos-footer  {
+      margin-bottom: 0.7rem; 
+     }
+
 
   .central{
+    padding-top: 1rem;
     background-color: #3c122c;
   }
-
-  .informacion-legal{
-    background-color: #dc3545;
+  
+  .redes-sociales{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
   }
+
+.footer-bajo{
+  background-color: #f8d9d6;
+  text-align: center;
+  color: #777;
+  font-size: 17px;
+  padding: 0.3rem;
+  
+}
