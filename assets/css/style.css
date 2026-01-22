@@ -47,9 +47,10 @@
     color: #fff;
     text-decoration: none;
 
-    .fa-brands{
+    .fa-instagram{
       font-size: 1.5rem;
       display: inline-block;
+      color: #fff;
     }
 }
 .header-nav ul li .contact{
@@ -79,9 +80,9 @@
   flex: 1; 
   text-align: center; 
   padding: 0 15px; 
-    text-align: center;
-    color: #777;
-    font-size: 13px;
+  text-align: center;
+  color: #777;
+  font-size: 13px;
 }
 .envio-info p img{
      vertical-align: middle;
@@ -198,11 +199,7 @@ body {
   min-height: 100vh;
 }
 
-main{
 
-  background-color: var(--green);
-  text-align: center;
-  }
 
 
     footer{
@@ -214,46 +211,71 @@ main{
   .sobre-nosotros,  .informacion-legal{
     padding-top: 2rem;
     text-align: center;
-    color: #777777;    
-    padding-bottom: 1rem;
-
-    a{
+    margin-bottom: 2rem;
+    color: #777;
+    font-size: 15px;
+  
+  }
+.sobre-nosotros a,  .informacion-legal a {
       text-decoration: none;
-      color: #777777;
+      color: #777;
       display: flex;
       justify-content: center;
-    }
-  }
+      margin-top: 0.5rem;
+}
+.sobre-nosotros a:hover,  .informacion-legal a:hover {
+      color: #eb958d;
+}
+.sobre-nosotros i, .informacion-legal i {
+  margin-right: 8px;
+  color: var(--pink);   
+}
+
+.sobre-nosotros a:hover i, .informacion-legal a:hover i {
+  color: var(--green);     
+}
+
 .titulos-footer  {
       margin-bottom: 0.7rem; 
      }
 
 
   .central{
-    padding-top: 1rem;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
   }
   .central img{
-    width: 15rem;
-    margin-top: -3rem;
-    margin-left: -5rem;
+    max-width: 10rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     border-radius: 2rem;
-  }
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+    padding: 0.5rem;
+}
+  
 
   
   .redes-sociales{
-    padding-top: 1rem;
+    margin-bottom: 2rem;
     display: flex;
-    justify-content: center;
-    gap: 1rem;
-    
+    gap: 15px;  
   }
+.fa-brands{
+  color: #524e4e;
+  font-size: 1.5rem;
+}
+.fa-brands:hover{
+  color: #eb958d;
+}
 
 .footer-bajo{
-
   text-align: center;
-  color: #777;
-  font-size: 17px;
   padding: 0.3rem;
-  
+  color: #2b2929;
 }
