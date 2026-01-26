@@ -1,0 +1,323 @@
+{
+  "productos": [
+    {
+        "id": 1,
+        "slug": "cuelgamovil-arana",
+        "categoria": "Colgantes para móvil",
+        "productName": "Cuelgamóvil Araña",
+        "imagen": "../assets/img/ColganteMovil-Araña1.png",
+        "precio": 8,
+        "descripcion": "Pieza artesanal con mostacillas y nylon de alta resistencia.",
+        "materiales": "Nylon, Cristal, Acero",
+        "stock": 1
+    },
+    {
+        "id": 2,
+        "slug": "cuelgamovil-arana",
+        "categoria": "Colgantes para móvil",
+        "productName": "Cuelgamóvil Delfin",
+        "imagen": "../assets/img/ColganteMovil-Araña1.png",
+        "precio": 8,
+        "descripcion": "Pieza artesanal con mostacillas y nylon de alta resistencia.",
+        "materiales": "Nylon, Cristal, Acero",
+        "stock": 1
+    },
+    {
+        "id": 3,
+        "slug": "cuelgamovil-arana",
+        "categoria": "Colgantes para móvil",
+        "productName": "Cuelgamóvil Estrella Trebol",
+        "imagen": "../assets/img/ColganteMovil-Araña1.png",
+        "precio": 8,
+        "descripcion": "Pieza artesanal con mostacillas y nylon de alta resistencia.",
+        "materiales": "Nylon, Cristal, Acero",
+        "stock": 1
+    },
+    {
+        "id": 4,
+        "slug": "cuelgamovil-arana",
+        "categoria": "Colgantes para móvil",
+        "productName": "Cuelgamóvil Estrella",
+        "imagen": "../assets/img/ColganteMovil-Araña1.png",
+        "precio": 8,
+        "descripcion": "Pieza artesanal con mostacillas y nylon de alta resistencia.",
+        "materiales": "Nylon, Cristal, Acero",
+        "stock": 1
+    },
+    {
+        "id": 5,
+        "slug": "cuelgamovil-arana",
+        "categoria": "Colgantes para móvil",
+        "productName": "Cuelgamóvil Guitarras-Hojas",
+        "imagen": "../assets/img/ColganteMovil-Araña1.png",
+        "precio": 8,
+        "descripcion": "Pieza artesanal con mostacillas y nylon de alta resistencia.",
+        "materiales": "Nylon, Cristal, Acero",
+        "stock": 1
+    },
+    {
+        "id": 6,
+        "slug": "cuelgamovil-arana",
+        "categoria": "Colgantes para móvil",
+        "productName": "Cuelgamóvil Guitarra",
+        "imagen": "../assets/img/ColganteMovil-Araña1.png",
+        "precio": 8,
+        "descripcion": "Pieza artesanal con mostacillas y nylon de alta resistencia.",
+        "materiales": "Nylon, Cristal, Acero",
+        "stock": 1
+    },
+    {
+        "id": 7,
+        "slug": "cuelgamovil-arana",
+        "categoria": "Colgantes para móvil",
+        "productName": "Cuelgamóvil Murcielago-Hojas",
+        "imagen": "../assets/img/ColganteMovil-Araña1.png",
+        "precio": 8,
+        "descripcion": "Pieza artesanal con mostacillas y nylon de alta resistencia.",
+        "materiales": "Nylon, Cristal, Acero",
+        "stock": 1
+    },
+    {
+        "id": 8,
+        "slug": "cuelgamovil-arana",
+        "categoria": "Colgantes para móvil",
+        "productName": "Cuelgamóvil Murcielago",
+        "imagen": "../assets/img/ColganteMovil-Araña1.png",
+        "precio": 8,
+        "descripcion": "Pieza artesanal con mostacillas y nylon de alta resistencia.",
+        "materiales": "Nylon, Cristal, Acero",
+        "stock": 1
+    },
+    {
+        "id": 9,
+        "slug": "cuelgamovil-arana",
+        "categoria": "Collares",
+        "productName": "Collar Blanco Delfin",
+        "imagen": "../assets/img/ColganteMovil-Araña1.png",
+        "precio": 8,
+        "descripcion": "Pieza artesanal con mostacillas y nylon de alta resistencia.",
+        "materiales": "Nylon, Cristal, Acero",
+        "stock": 1
+    },
+    {
+        "id": 10,
+        "slug": "cuelgamovil-arana",
+        "categoria": "Collares",
+        "productName": "Collar Fresa abalorios",
+        "imagen": "../assets/img/ColganteMovil-Araña1.png",
+        "precio": 8,
+        "descripcion": "Pieza artesanal con mostacillas y nylon de alta resistencia.",
+        "materiales": "Nylon, Cristal, Acero",
+        "stock": 1
+    },
+    {
+        "id": 11,
+        "slug": "cuelgamovil-arana",
+        "categoria": "Collares",
+        "productName": "Collar Fresa cadena",
+        "imagen": "../assets/img/ColganteMovil-Araña1.png",
+        "precio": 8,
+        "descripcion": "Pieza artesanal con mostacillas y nylon de alta resistencia.",
+        "materiales": "Nylon, Cristal, Acero",
+        "stock": 1
+    },
+    {
+        "id": 12,
+        "slug": "cuelgamovil-arana",
+        "categoria": "Collares",
+        "productName": "Collar Piedra Azul",
+        "imagen": "../assets/img/ColganteMovil-Araña1.png",
+        "precio": 8,
+        "descripcion": "Pieza artesanal con mostacillas y nylon de alta resistencia.",
+        "materiales": "Nylon, Cristal, Acero",
+        "stock": 1
+    },
+    {
+        "id": 13,
+        "slug": "cuelgamovil-arana",
+        "categoria": "Collares",
+        "productName": "Collar Plateado Fresa",
+        "imagen": "../assets/img/ColganteMovil-Araña1.png",
+        "precio": 8,
+        "descripcion": "Pieza artesanal con mostacillas y nylon de alta resistencia.",
+        "materiales": "Nylon, Cristal, Acero",
+        "stock": 1
+    },
+    {
+        "id": 14,
+        "slug": "cuelgamovil-arana",
+        "categoria": "Collares",
+        "productName": "Collar Rosa Roja",
+        "imagen": "../assets/img/ColganteMovil-Araña1.png",
+        "precio": 8,
+        "descripcion": "Pieza artesanal con mostacillas y nylon de alta resistencia.",
+        "materiales": "Nylon, Cristal, Acero",
+        "stock": 1
+    },
+    {
+        "id": 15,
+        "slug": "cuelgamovil-arana",
+        "categoria": "Collares",
+        "productName": "Collar Trebol",
+        "imagen": "../assets/img/ColganteMovil-Araña1.png",
+        "precio": 8,
+        "descripcion": "Pieza artesanal con mostacillas y nylon de alta resistencia.",
+        "materiales": "Nylon, Cristal, Acero",
+        "stock": 1
+    },
+    {
+        "id": 16,
+        "slug": "cuelgamovil-arana",
+        "categoria": "Collares",
+        "productName": "Cuelgamóvil Araña",
+        "imagen": "../assets/img/ColganteMovil-Araña1.png",
+        "precio": 8,
+        "descripcion": "Pieza artesanal con mostacillas y nylon de alta resistencia.",
+        "materiales": "Nylon, Cristal, Acero",
+        "stock": 1
+    },
+    {
+        "id": 17,
+        "slug": "cuelgamovil-arana",
+        "categoria": "Pendientes",
+        "productName": "Cuelgamóvil Araña",
+        "imagen": "../assets/img/ColganteMovil-Araña1.png",
+        "precio": 8,
+        "descripcion": "Pieza artesanal con mostacillas y nylon de alta resistencia.",
+        "materiales": "Nylon, Cristal, Acero",
+        "stock": 1
+    },
+    {
+        "id": 18,
+        "slug": "cuelgamovil-arana",
+        "categoria": "Pendientes",
+        "productName": "Cuelgamóvil Araña",
+        "imagen": "../assets/img/ColganteMovil-Araña1.png",
+        "precio": 8,
+        "descripcion": "Pieza artesanal con mostacillas y nylon de alta resistencia.",
+        "materiales": "Nylon, Cristal, Acero",
+        "stock": 1
+    },
+    {
+        "id": 19,
+        "slug": "cuelgamovil-arana",
+        "categoria": "Pendientes",
+        "productName": "Cuelgamóvil Araña",
+        "imagen": "../assets/img/ColganteMovil-Araña1.png",
+        "precio": 8,
+        "descripcion": "Pieza artesanal con mostacillas y nylon de alta resistencia.",
+        "materiales": "Nylon, Cristal, Acero",
+        "stock": 1
+    },
+    {
+        "id": 20,
+        "slug": "cuelgamovil-arana",
+        "categoria": "Pendientes",
+        "productName": "Cuelgamóvil Araña",
+        "imagen": "../assets/img/ColganteMovil-Araña1.png",
+        "precio": 8,
+        "descripcion": "Pieza artesanal con mostacillas y nylon de alta resistencia.",
+        "materiales": "Nylon, Cristal, Acero",
+        "stock": 1
+    },
+    {
+        "id": 21,
+        "slug": "cuelgamovil-arana",
+        "categoria": "Pendientes",
+        "productName": "Cuelgamóvil Araña",
+        "imagen": "../assets/img/ColganteMovil-Araña1.png",
+        "precio": 8,
+        "descripcion": "Pieza artesanal con mostacillas y nylon de alta resistencia.",
+        "materiales": "Nylon, Cristal, Acero",
+        "stock": 1
+    },
+    {
+        "id": 22,
+        "slug": "cuelgamovil-arana",
+        "categoria": "Pendientes",
+        "productName": "Cuelgamóvil Araña",
+        "imagen": "../assets/img/ColganteMovil-Araña1.png",
+        "precio": 8,
+        "descripcion": "Pieza artesanal con mostacillas y nylon de alta resistencia.",
+        "materiales": "Nylon, Cristal, Acero",
+        "stock": 1
+    },
+    {
+        "id": 23,
+        "slug": "cuelgamovil-arana",
+        "categoria": "Pendientes",
+        "productName": "Cuelgamóvil Araña",
+        "imagen": "../assets/img/ColganteMovil-Araña1.png",
+        "precio": 8,
+        "descripcion": "Pieza artesanal con mostacillas y nylon de alta resistencia.",
+        "materiales": "Nylon, Cristal, Acero",
+        "stock": 1
+    },
+    {
+        "id": 24,
+        "slug": "cuelgamovil-arana",
+        "categoria": "Pendientes",
+        "productName": "Cuelgamóvil Araña",
+        "imagen": "../assets/img/ColganteMovil-Araña1.png",
+        "precio": 8,
+        "descripcion": "Pieza artesanal con mostacillas y nylon de alta resistencia.",
+        "materiales": "Nylon, Cristal, Acero",
+        "stock": 1
+    },
+    {
+        "id": 25,
+        "slug": "cuelgamovil-arana",
+        "categoria": "Pulseras",
+        "productName": "Cuelgamóvil Araña",
+        "imagen": "../assets/img/ColganteMovil-Araña1.png",
+        "precio": 8,
+        "descripcion": "Pieza artesanal con mostacillas y nylon de alta resistencia.",
+        "materiales": "Nylon, Cristal, Acero",
+        "stock": 1
+    },
+    {
+        "id": 26,
+        "slug": "cuelgamovil-arana",
+        "categoria": "Pulseras",
+        "productName": "Cuelgamóvil Araña",
+        "imagen": "../assets/img/ColganteMovil-Araña1.png",
+        "precio": 8,
+        "descripcion": "Pieza artesanal con mostacillas y nylon de alta resistencia.",
+        "materiales": "Nylon, Cristal, Acero",
+        "stock": 1
+    },
+    {
+        "id": 27,
+        "slug": "cuelgamovil-arana",
+        "categoria": "Pulseras",
+        "productName": "Cuelgamóvil Araña",
+        "imagen": "../assets/img/ColganteMovil-Araña1.png",
+        "precio": 8,
+        "descripcion": "Pieza artesanal con mostacillas y nylon de alta resistencia.",
+        "materiales": "Nylon, Cristal, Acero",
+        "stock": 1
+    },
+    {
+        "id": 28,
+        "slug": "cuelgamovil-arana",
+        "categoria": "Pulseras",
+        "productName": "Cuelgamóvil Araña",
+        "imagen": "../assets/img/ColganteMovil-Araña1.png",
+        "precio": 8,
+        "descripcion": "Pieza artesanal con mostacillas y nylon de alta resistencia.",
+        "materiales": "Nylon, Cristal, Acero",
+        "stock": 1
+    },
+    {
+        "id": 29,
+        "slug": "cuelgamovil-arana",
+        "categoria": "Pulseras",
+        "productName": "Cuelgamóvil Araña",
+        "imagen": "../assets/img/ColganteMovil-Araña1.png",
+        "precio": 8,
+        "descripcion": "Pieza artesanal con mostacillas y nylon de alta resistencia.",
+        "materiales": "Nylon, Cristal, Acero",
+        "stock": 1
+    }
+]
+}

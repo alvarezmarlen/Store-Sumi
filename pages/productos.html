@@ -1,74 +1,114 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8">
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <meta name="author" content="Marlen Alvarez" />
-  <meta name="description" content="Bellas prendas artesanales">
-  <meta name="keywords" content="bisuteria, prendas, artesanales, collares, aros">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
-
-  <link rel="stylesheet" href="/assets/css/style.css">
-    <title>Store Sumi.chh</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Marlen Alvarez" />
+    <meta name="description" content="Bellas prendas artesanales">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/384e83612b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style2.css">
+    <title>Colgantes - Sumi.chh</title>
 </head>
 
 <body>
-    <header>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Sumi Chh</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link" aria-current="page" href="/index.html">Inicio</a></li>
-                    <li class="nav-item dropdown d-flex align-items-center"><a class="nav-link" href="pages/productos.html">Productos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#conóceme">Conóceme</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/carrito"><i class="fa-solid fa-cart-shopping"></i></a></li>
-                </ul>
-                <form class="d-flex" role="search" action="/buscar" method="GET" target="_blank">
-                    <input class="form-control me-2" type="search" name="q" placeholder="Buscar" aria-label="Buscar">
-                    <button class="btn btn-outline-success" type="submit" aria-label="Buscar"><i class="fas fa-search"></i></button>
-                </form>
-            </div>
-        </div>
-    </nav>
-    </header>
-    
-    <main>
-        <section class="container">
-            <h1>Productos</h1>
-            <div id="product-list">
+    <header id="header">
+        <nav class="header-nav" >
+            <ul>
+                <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+            <ul>
+                <li><a class="contact" href="pages/contacto.html">Contáctanos</a></li>
+            </ul>
+        </nav>
 
+        <section class="header-top">
+            <div class="logo-header">
+                <img src="/assets/img/logo-nombre.png" alt="Logo Sumi.chh">
+            </div>
+
+            <div class="header-center">
+                <div class="envio-info">
+                    <p><img src="/assets/img/envio.jpg" alt="Camion envio">
+                    ENVIOS A TODA ESPAÑA &nbsp;&nbsp;&nbsp;
+                    <img src="/assets/img/icono-pago-seguro.jpg" alt="">
+                    PAGO 100% SEGURO</p>
+                </div>
+                <div class="buscar-nav">
+                    <form action="/search" class="buscar-form">
+                        <input type="text" class="form-control" name="s"  placeholder="Buscar en el catálogo" autocomplete="off">
+                        <button type="submit" class="buscar-btn"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+            </button>
+            </div>
+
+            <div class="header-right">
+                    <a href=""><img src="/assets/img/icono-cuenta.jpg" alt="Icono Iniciar Sesión"> <span class="title">Iniciar Sesión</span></a>
+                    <a href=""><img src="/assets/img/icono-cesta.jpg" alt="Icono Carrito"> <span class="title">Carrito</span></a>
             </div>
         </section>
+
+
+        <input type="checkbox" id="">
+        <label for=""></label>
+        <form action=""></form>
+
+        <nav class="nav-inferior">
+            <ul>
+                <li><a href=""><i class='bx bx-home'></i><span>Inicio</span></a></li>
+                <li><a href=""><i class='bx bxs-grid'></i><span>Productos</span></a></li>
+                <li><a href=""><i class='bx bx-group'></i><span>Nosotros</span></a></li>
+                <li><a href=""><i class='bx bx-envelope'></i><span>Contacto</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+
+
+
+
 
 
     </main>
 
 
 
+    <footer class="container-footer">
+        <section class="sobre-nosotros">
+            <p class="titulos-footer"><span>SOBRE NOSOTROS</span></p>
+            <a  href=""><i class="fa-solid fa-pen-nib"></i>Sumi.chh Blog</a>
+            <a href=""><i class="fa-solid fa-heart"></i>Sobre la marca</a>
+        </section>
 
+        <section class="central">
+            <a href="/"><img src="/assets/img/logo-sumi.png" alt="Sumi.chh - Ir a inicio"></a>
+            <nav class="redes-sociales" aria-label="Redes sociales">
+                <a href="https://www.facebook.com/?locale=es_ES"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://x.com/?lang=es"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.youtube.com/?app=desktop&hl=e"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.tiktok.com/"><i class="fa-brands fa-tiktok"></i></a>
+            </nav>
+        </section>
 
-    <footer class="text-white pt-4 pb-2 ">
-        <div class="container text-center">
-            <h5 class="mb-3">Tu Marca o Nombre</h5>
-            <div class="mb-3">
-                <a href="https://www.instagram.com/" target="_blank" class="text-white me-3"><i class="fab fa-instagram fa-lg"></i></a>
-                <a href="https://www.facebook.com/" target="_blank" class="text-white me-3"><i class="fab fa-facebook fa-lg"></i></a>
-                <a href="https://wa.me/34600000000" target="_blank" class="text-white"><i class="fab fa-whatsapp fa-lg"></i></a>
-            </div>
-            <!-- Información adicional -->
-            <p class="mb-1">Teléfono: +34 613 07 96 78</p>
-            <p class="mb-1">Email: mibisuteria@gmail.com</p>
-            <p class="mb-3">Dirección:Bilbao</p>
-            <small>&copy; 2025 Marlen Alvarez | Todos los derechos reservados.</small>
-        </div>
+        <section class="informacion-legal">
+            <p class="titulos-footer"><span>INFORMACIÓN</span></p>
+            <a href=""><i class="fa-solid fa-lock"></i>Política de privacidad</a>
+            <a href=""><i class="fa-solid fa-circle-info"></i> Política de cookies</a>
+            <a href=""><i class="fa-solid fa-scale-balanced"></i>Términos y condiciones</a>
+        </section>
     </footer>
+    <div class="footer-bajo">
+        <p><em>Copyright  2026 | Dev/Marlen Alvarez</em></p>
+    </div>
 
-    <script src="/assets/js/catalogo.js"></script>
+    <script src="assets/js/portada.js"></script>
 </body>
+
 </html>

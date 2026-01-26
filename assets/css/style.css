@@ -106,7 +106,7 @@
     padding: 0.5rem 2.5rem 0.5rem 1rem; 
     font-size: 13px; /* Texto más pequeño dentro */
     box-sizing: border-box;
-    border: 1px solid #ccc;
+    border: 1px solid #eb958d;
     border-radius: 20px; /* Bordes redonditos finos */
 }
 
@@ -206,6 +206,8 @@ body {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     background-color: #ffd5d5;
+    border-bottom: solid 1px #cfcfcf;
+    border-top: solid 1px #cfcfcf;
   }
 
   .sobre-nosotros,  .informacion-legal{
@@ -232,7 +234,7 @@ body {
 }
 
 .sobre-nosotros a:hover i, .informacion-legal a:hover i {
-  color: var(--green);     
+  color: #00223e;     
 }
 
 .titulos-footer  {
@@ -277,5 +279,5 @@ body {
 .footer-bajo{
   text-align: center;
   padding: 0.3rem;
-  color: #2b2929;
+  color: #777;
 }
