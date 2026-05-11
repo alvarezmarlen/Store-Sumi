@@ -3,11 +3,11 @@ export function injectLayout() {
     const footerContainer = document.querySelector('footer');
     const footerBajo = document.querySelector('.footer-bajo');
 
-    // Detectar profundidad de la carpeta para ajustar rutas relativas
-    const path = window.location.pathname;
-    const isSubPage = path.includes('/pages/');
-    const basePath = isSubPage ? '../' : '';
-    const pagesPath = isSubPage ? '' : 'pages/';
+    // Nombres más naturales
+    const dondeEstoy = window.location.pathname;
+    const paginaInterna = dondeEstoy.includes('/pages/');
+    const rutaBase = paginaInterna ? '../' : '';
+    const rutaHaciaPages = paginaInterna ? '' : 'pages/';
 
     if (headerContainer) {
         headerContainer.id = 'header';
@@ -17,20 +17,20 @@ export function injectLayout() {
                     <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
                 </ul>
                 <ul>
-                    <li><a class="contact" href="${basePath}${pagesPath}contacto.html">Contáctanos</a></li>
+                    <li><a class="contact" href="${rutaBase}${rutaHaciaPages}contacto.html">Contáctanos</a></li>
                 </ul>
             </nav>
 
             <section class="header-top">
                 <div class="logo-header">
-                    <img src="${basePath}assets/img/logo-nombre.png" alt="Logo Sumi.chh">
+                    <img src="${rutaBase}assets/img/logo-nombre.png" alt="Logo Sumi.chh">
                 </div>
 
                 <div class="header-center">
                     <div class="envio-info">
                         <p>
-                            <img src="${basePath}assets/img/envio.jpg" alt="Camion envio">ENVIOS A TODA ESPAÑA &nbsp;&nbsp;&nbsp;
-                            <img src="${basePath}assets/img/icono-pago-seguro.jpg" alt="pago seguro">PAGO 100% SEGURO
+                            <img src="${rutaBase}assets/img/envio.jpg" alt="Camion envio">ENVIOS A TODA ESPAÑA &nbsp;&nbsp;&nbsp;
+                            <img src="${rutaBase}assets/img/icono-pago-seguro.jpg" alt="pago seguro">PAGO 100% SEGURO
                         </p>
                     </div>
                     <div class="buscar-nav">
@@ -42,17 +42,17 @@ export function injectLayout() {
                 </div>
 
                 <div class="header-right">
-                    <a href=""><img src="${basePath}assets/img/icono-cuenta.jpg" alt="Icono Iniciar Sesión"> <span class="title">Iniciar Sesión</span></a>
-                    <a href=""><img src="${basePath}assets/img/icono-cesta.jpg" alt="Icono Carrito"> <span class="title">Carrito</span></a>
+                    <a href=""><img src="${rutaBase}assets/img/icono-cuenta.jpg" alt="Icono Iniciar Sesión"> <span class="title">Iniciar Sesión</span></a>
+                    <a href=""><img src="${rutaBase}assets/img/icono-cesta.jpg" alt="Icono Carrito"> <span class="title">Carrito</span></a>
                 </div>
             </section>
 
             <nav class="nav-inferior">
                 <ul>
-                    <li><a href="${basePath}index.html"><i class='bx bx-home'></i><span>Inicio</span></a></li>
-                    <li><a href="${basePath}${pagesPath}productos.html"><i class='bx bxs-grid'></i><span>Productos</span></a></li>
+                    <li><a href="${rutaBase}index.html"><i class='bx bx-home'></i><span>Inicio</span></a></li>
+                    <li><a href="${rutaBase}${rutaHaciaPages}productos.html"><i class='bx bxs-grid'></i><span>Productos</span></a></li>
                     <li><a href=""><i class='bx bx-group'></i><span>Nosotros</span></a></li>
-                    <li><a href="${basePath}${pagesPath}contacto.html"><i class='bx bx-envelope'></i><span>Contacto</span></a></li>
+                    <li><a href="${rutaBase}${rutaHaciaPages}contacto.html"><i class='bx bx-envelope'></i><span>Contacto</span></a></li>
                 </ul>
             </nav>
         `;
@@ -68,7 +68,7 @@ export function injectLayout() {
             </section>
 
             <section class="central">
-                <a href="${basePath}index.html"><img src="${basePath}assets/img/logo-sumi.png" alt="Sumi.chh - Ir a inicio"></a>
+                <a href="${rutaBase}index.html"><img src="${rutaBase}assets/img/logo-sumi.png" alt="Sumi.chh - Ir a inicio"></a>
                 <nav class="redes-sociales" aria-label="Redes sociales">
                     <a href="https://www.facebook.com/?locale=es_ES"><i class="fa-brands fa-facebook-f"></i></a>
                     <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
@@ -86,8 +86,7 @@ export function injectLayout() {
             </section>
         `;
 
-        // USAMOS LA VARIABLE QUE YA TENEMOS O LA BUSCAMOS DE NUEVO
-        let lowerFooter = footerBajo;   // Intentamos usar la del principio
+        let lowerFooter = footerBajo;
         if (!lowerFooter) {
             lowerFooter = document.createElement('div');
             lowerFooter.className = 'footer-bajo';

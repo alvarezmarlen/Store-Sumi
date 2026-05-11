@@ -1,23 +1,23 @@
 export const products = [
     {
-        code: 'C002',
-        name: 'Collar dije Fresa con abalorios',
-        descripcion: '✨ Un toque dulce que ilumina tu look 🍓✨',
+        id: 1,
+        name: 'Cuelgamóvil Araña',
         price: 8,
-        image: '/assets/img/CollarFrutilla-abalorios02.png'
+        image: 'assets/img/ColganteMovil-Araña1.png',
+        description: 'Pieza artesanal con mostacillas y nylon de alta resistencia.'
     },
     {
-        code: 'C005',
-        name: 'Collar dije azul',
-        descripcion: '', // Manejo de descripción vacía
-        price: 12,
-        image: '/assets/img/AretesRojos-PerlasBlancas6.png'
+        id: 2,
+        name: 'Pendientes Mariquitas',
+        price: 6,
+        image: 'assets/img/pendientesMariquitas4.png',
+        description: 'Diseño único hecho a mano.'
     },
     {
-        code: 'C006',
-        name: 'Pulsera dije Fresa con hojas',
-        descripcion: '', // Manejo de descripción vacía
-        price: 12,
-        image: '/assets/img/PulceraFrutilla02.png'
+        id: 3,
+        name: 'Colgante Fresa',
+        price: 10,
+        image: 'assets/img/CollarFrutilla04.png',
+        description: '✨ Un toque dulce que ilumina tu look 🍓✨'
     }
 ];

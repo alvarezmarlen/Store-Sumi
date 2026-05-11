@@ -2,25 +2,19 @@ export function renderProducts(products, containerId) {
     const productList = document.getElementById(containerId);
     if (!productList) return;
 
-    productList.innerHTML = ''; // Limpiar contenedor
+    // Limpiamos el contenedor para que no se duplique con lo que hay en el index
+    productList.innerHTML = ''; 
 
     products.forEach((product) => {
-        const col = document.createElement('div');
-        col.className = 'col';
+        const div = document.createElement('div');
+        div.className = 'producto-mini'; // Mantenemos tu clase original de CSS
         
-        // Manejo de descripción para evitar 'undefined'
-        const descripcion = product.descripcion || '';
-
-        col.innerHTML = `
-            <div class="card" style="width: 18rem;">
-                <img src="${product.image}" class="card-img-top" alt="${product.name}">
-                <div class="card-body">
-                    <h5 class="card-title">${product.name}</h5>
-                    <p><strong>€ ${product.price}</strong></p>
-                    ${descripcion ? `<p class="card-text">${descripcion}</p>` : ''}
-                </div>
-            </div>
+        div.innerHTML = `
+            <img src="${product.image}" alt="${product.name}">
+            <h5>${product.name}</h5>
+            <span>${product.price},00€</span>
+            ${product.description ? `<p style="font-size: 0.8rem; color: #666; margin-top: 5px;">${product.description}</p>` : ''}
         `;
-        productList.appendChild(col);
+        productList.appendChild(div);
     });
 }
